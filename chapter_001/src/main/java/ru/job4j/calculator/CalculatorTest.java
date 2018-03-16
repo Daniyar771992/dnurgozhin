@@ -1,9 +1,14 @@
 package ru.job4j.calculator;
-
+    /**
+	* Класс КалькуляторТест
+    * @author Daniyar Nurgozhin
+    * @version 1
+    */
+	
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
-import staitc org.junit.Assert.assertThat;
+import static org.junit.Assert.assertThat;
 
 public class CalculatorTest {
 	@Test
