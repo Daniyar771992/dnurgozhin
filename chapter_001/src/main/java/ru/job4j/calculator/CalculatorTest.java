@@ -1,15 +1,15 @@
 package ru.job4j.calculator;
-    /**
-	* Класс КалькуляторТест
-    * @author Daniyar Nurgozhin
-    * @version 1
-    */
-	
+
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
+    /**
+	* Класс КалькуляторТест
+    * @author Daniyar Nurgozhin
+    * @version 1
+    */
 public class CalculatorTest {
 	@Test
 	public void whenAddOnePlusOneThenTwo() {
