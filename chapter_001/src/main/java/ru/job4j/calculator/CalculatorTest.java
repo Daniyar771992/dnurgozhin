@@ -5,19 +5,15 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-    /**
-	* Класс КалькуляторТест
-    * @author Daniyar Nurgozhin
-    * @version 1
-    */
 public class CalculatorTest {
+	
 	@Test
 	public void whenAddOnePlusOneThenTwo() {
 		Calculator calc = new Calculator();
 		calc.add(1D, 1D);
 		double result = calc.getResult();
 		double expected = 2D;
-		'assertThat(result, is(expected));
+		assertThat(result, is(expected));
 	}
 	
 	@Test 
@@ -26,7 +22,7 @@ public class CalculatorTest {
 		calc.substruct(10D, 5D);
 		double result = calc.getResult();
 		double expected = 5D;
-		'assertThat(result, is(expected));
+		assertThat(result, is(expected));
 	}
 	
 	@Test 
@@ -35,7 +31,7 @@ public class CalculatorTest {
 		calc.divide(10D, 5D);
 		double result = calc.getResult();
 		double expected = 2D;
-		'assertThat(result, is(expected));
+		assertThat(result, is(expected));
 	}
 	
 	@Test 
@@ -44,6 +40,6 @@ public class CalculatorTest {
 		calc.multiple(2D, 5D);
 		double result = calc.getResult();
 		double expected = 10D;
-		'assertThat(result, is(expected));
+		assertThat(result, is(expected));
 	}
 }
