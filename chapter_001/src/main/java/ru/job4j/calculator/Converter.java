@@ -47,3 +47,4 @@ package ru.job4j.calculator;
 		 double ruble = (double)value * rate;
 		 return ruble;
 	}
+ }
